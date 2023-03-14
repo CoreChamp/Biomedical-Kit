@@ -12,15 +12,9 @@ char auth[] = BLYNK_AUTH_TOKEN;
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-//char ssid[] = "";
-//char pass[] = "Enter password";
 char ssid[] = "Enter Wifi Name";
 char pass[] = "Enter Password";
 
-// Hardware Serial on Mega, Leonardo, Micro...
-//#define EspSerial Serial
-
-// or Software Serial on Uno, Nano...
 #include <SoftwareSerial.h>
 SoftwareSerial EspSerial(11, 12); // RX, TX
 
