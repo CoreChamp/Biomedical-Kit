@@ -125,7 +125,7 @@ lasta=a;
 }
  
 ThisTime=millis();
-int value=analogRead(0);
+int value=analogRead(A2);
 display.setTextColor(WHITE);
 int b=60-(value/16);
 display.writeLine(lasta,lastb,a,b,WHITE);
